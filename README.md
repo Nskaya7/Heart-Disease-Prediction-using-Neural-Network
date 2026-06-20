@@ -16,7 +16,6 @@ TensorFlow's Heart Disease dataset (`heart.csv`) - 303 patients, 13 clinical fea
 ## Approach
 
 - Data cleaning, feature selection, and normalization
-- Baseline: Logistic Regression via Scikit-learn
 - Final model: Feedforward Neural Network (Keras/TensorFlow)
 - Evaluation: Accuracy, Precision, Recall, Confusion Matrix
 
@@ -32,4 +31,4 @@ TensorFlow's Heart Disease dataset (`heart.csv`) - 303 patients, 13 clinical fea
 
 ## Key Takeaway
 
-Neural network achieves 83.6% accuracy vs 72.6% for logistic regression, demonstrating the advantage of non-linear modelling on clinical tabular data.
+Neural network achieves 83.6% accuracy vs 72.6% for a naive baseline model that classifies everything as 0, demonstrating the advantage of non-linear modelling on clinical tabular data.
